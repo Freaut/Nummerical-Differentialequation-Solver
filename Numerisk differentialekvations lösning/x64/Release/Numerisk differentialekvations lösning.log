@@ -1,0 +1,13 @@
+﻿  Numerisk differentialekvations lösning.cpp
+C:\Users\lukas.lundgren2\Downloads\Numerisk differentialekvations lösning\Numerisk differentialekvations lösning\matplotlibcpp.h(1818,57): warning C4244: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\lukas.lundgren2\Downloads\Numerisk differentialekvations lösning\Numerisk differentialekvations lösning\matplotlibcpp.h(2885): message : see reference to function template instantiation 'bool matplotlibcpp::plot<double>(const std::vector<double,std::allocator<double>> &,const std::string &)' being compiled
+  Generating code
+  3 of 285 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Numerisk differentialekvations lösning.vcxproj -> C:\Users\lukas.lundgren2\Downloads\Numerisk differentialekvations lösning\x64\Release\Numerisk differentialekvations lösning.exe

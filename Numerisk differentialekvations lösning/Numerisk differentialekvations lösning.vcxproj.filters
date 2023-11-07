@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Numerisk differentialekvations lösning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="matplot\axes_objects\bars.h" />
+    <ClInclude Include="matplot\axes_objects\box_chart.h" />
+    <ClInclude Include="matplot\axes_objects\circles.h" />
+    <ClInclude Include="matplot\axes_objects\contours.h" />
+    <ClInclude Include="matplot\axes_objects\error_bar.h" />
+    <ClInclude Include="matplot\axes_objects\filled_area.h" />
+    <ClInclude Include="matplot\axes_objects\function_line.h" />
+    <ClInclude Include="matplot\axes_objects\histogram.h" />
+    <ClInclude Include="matplot\axes_objects\labels.h" />
+    <ClInclude Include="matplot\axes_objects\line.h" />
+    <ClInclude Include="matplot\axes_objects\matrix.h" />
+    <ClInclude Include="matplot\axes_objects\network.h" />
+    <ClInclude Include="matplot\axes_objects\parallel_lines.h" />
+    <ClInclude Include="matplot\axes_objects\stair.h" />
+    <ClInclude Include="matplot\axes_objects\string_function.h" />
+    <ClInclude Include="matplot\axes_objects\surface.h" />
+    <ClInclude Include="matplot\axes_objects\vectors.h" />
+    <ClInclude Include="matplot\backend\backend_interface.h" />
+    <ClInclude Include="matplot\backend\backend_registry.h" />
+    <ClInclude Include="matplot\backend\gnuplot.h" />
+    <ClInclude Include="matplot\backend\opengl.h" />
+    <ClInclude Include="matplot\backend\opengl_embed.h" />
+    <ClInclude Include="matplot\core\axes_object.h" />
+    <ClInclude Include="matplot\core\axes_type.h" />
+    <ClInclude Include="matplot\core\axis_type.h" />
+    <ClInclude Include="matplot\core\figure_registry.h" />
+    <ClInclude Include="matplot\core\figure_type.h" />
+    <ClInclude Include="matplot\core\legend.h" />
+    <ClInclude Include="matplot\core\line_spec.h" />
+    <ClInclude Include="matplot\freestanding\axes_functions.h" />
+    <ClInclude Include="matplot\freestanding\axes_lim.h" />
+    <ClInclude Include="matplot\freestanding\figure_functions.h" />
+    <ClInclude Include="matplot\freestanding\histcounts.h" />
+    <ClInclude Include="matplot\freestanding\plot.h" />
+    <ClInclude Include="matplot\util\colors.h" />
+    <ClInclude Include="matplot\util\common.h" />
+    <ClInclude Include="matplot\util\concepts.h" />
+    <ClInclude Include="matplot\util\contourc.h" />
+    <ClInclude Include="matplot\util\geodata.h" />
+    <ClInclude Include="matplot\util\handle_types.h" />
+    <ClInclude Include="matplot\util\keywords.h" />
+    <ClInclude Include="matplot\util\popen.h" />
+    <ClInclude Include="matplot\util\type_traits.h" />
+    <ClInclude Include="matplot\matplot.h" />
+    <ClInclude Include="matplotlibcpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="python311.dll" />
+  </ItemGroup>
+</Project>
