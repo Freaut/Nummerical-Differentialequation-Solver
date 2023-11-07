@@ -4,9 +4,7 @@
 #include <fstream>
 #include <locale>
 #include <chrono>
-#include "matplotlibcpp.h"
-
-using namespace matplotlibcpp;
+#include <vector>
 
 struct Comma final : std::numpunct<char>
 {
